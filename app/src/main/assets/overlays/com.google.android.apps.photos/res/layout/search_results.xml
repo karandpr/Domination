@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.search.cardui.BehaviorProxyLayout android:id="@*com.google.android.apps.photos:id/proxy_container" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/com.google.android.apps.photos">
+    <FrameLayout android:id="@*com.google.android.apps.photos:id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@*com.google.android.apps.photos:layout/empty_view_layout" />
+    <include layout="@*com.google.android.apps.photos:layout/photos_emptystate_sub_page" />
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="bottom|center|right" android:id="@*com.google.android.apps.photos:id/fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@*com.google.android.apps.photos:dimen/photos_fabcontroller_fab_margin" android:layout_marginBottom="@*com.google.android.apps.photos:dimen/photos_fabcontroller_fab_margin" android:src="@*com.google.android.apps.photos:drawable/quantum_ic_add_white_24" android:contentDescription="@*com.google.android.apps.photos:string/photos_search_searchresults_floating_action_button_content_description" support:fabSize="normal" />
+</com.google.android.apps.photos.search.cardui.BehaviorProxyLayout>

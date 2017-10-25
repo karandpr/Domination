@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
+    <style name="ThemeOverlay.Text.DialogSubtitle" parent="@*com.google.android.instantapps.supervisor:style/ThemeOverlay.Text">
+        <item name="android:textSize">@*com.google.android.instantapps.supervisor:dimen/opt_in_dialog_subtitle_size</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+
+</resources>

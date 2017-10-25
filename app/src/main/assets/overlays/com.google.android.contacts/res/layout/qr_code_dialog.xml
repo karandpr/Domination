@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.ContentLoadingProgressBar android:layout_gravity="center" android:id="@*android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="@*com.google.android.contacts:style/Widget.AppCompat.ProgressBar" />
+    <TextView android:textSize="20.0sp" android:textColor="@*android:color/white" android:layout_gravity="center_horizontal" android:id="@*com.google.android.contacts:id/qr_code_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@*com.google.android.contacts:id/qr_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@*com.google.android.contacts:string/qr_code_title" />
+    <TextView android:textSize="16.0sp" android:textColor="@*android:color/white" android:layout_gravity="center_horizontal" android:id="@*com.google.android.contacts:id/qr_code_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="@*com.google.android.contacts:string/qr_code_message" />
+</LinearLayout>

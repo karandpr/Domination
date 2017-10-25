@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.swipenavigation.SwipeNavigationContainer android:id="@*com.instagram.android:id/swipe_navigation_container" android:backgroundTint="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@*com.instagram.android:id/layout_container_left" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.ui.widget.base.TouchInterceptorFrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@*com.instagram.android:id/layout_container_main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@*com.instagram.android:dimen/tab_bar_height_whiteout" android:isScrollContainer="true" />
+        <View android:layout_gravity="bottom" android:id="@*com.instagram.android:id/tab_bar_shadow" android:background="@*com.instagram.android:drawable/nav_shadow" android:layout_width="fill_parent" android:layout_height="@*com.instagram.android:dimen/view_switcher_shadow_height" android:layout_marginBottom="@*com.instagram.android:dimen/tab_bar_height_whiteout" android:scaleY="-1.0" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@*com.instagram.android:id/tab_bar" android:layout_width="fill_parent" android:layout_height="@*com.instagram.android:dimen/tab_bar_height_whiteout" />
+        <FrameLayout android:id="@*com.instagram.android:id/layout_container_right" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@*com.instagram.android:layout/action_bar" />
+        <ViewStub android:layout_gravity="bottom" android:id="@*com.instagram.android:id/snack_bar" android:layout="@*com.instagram.android:layout/snackbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@*com.instagram.android:id/bottom_sheet_container_stub" android:layout="@*com.instagram.android:layout/bottom_sheet_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.instagram.ui.widget.base.TouchInterceptorFrameLayout>
+</com.instagram.ui.swipenavigation.SwipeNavigationContainer>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@*android:color/background_floating_material_dark" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@*com.google.android.apps.photos:id/new_shared_album" android:background="@*com.google.android.apps.photos:drawable/photos_sharingtab_impl_viewbinders_create_new_share_button_background" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="16.0dip" android:src="@*com.google.android.apps.photos:drawable/quantum_ic_add_grey600_24" android:scaleType="center" android:contentDescription="@*com.google.android.apps.photos:string/photos_sharingtab_impl_viewbinders_empty_state_item_title" />
+    <TextView android:textColor="@*com.google.android.apps.photos:color/quantum_grey900" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@*com.google.android.apps.photos:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@*com.google.android.apps.photos:string/photos_sharingtab_impl_viewbinders_empty_state_item_title" android:maxLines="1" style="@*com.google.android.apps.photos:style/quantum_text_subhead_black" />
+</LinearLayout>

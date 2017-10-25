@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="334.0dip" android:width="512.0dip" android:viewportWidth="512.0" android:viewportHeight="334.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:scaleX="0.1" android:scaleY="-0.1" android:translateY="334.0">
+        <path android:fillColor="@*yet.another.wallpaper.app:color/AccentColor" android:pathData="M2252 2594 c-214 -33 -460 -115 -652 -216 -112 -59 -289 -174 -296 -193 -5 -12 1237 -1576 1251 -1576 14 0 1256 1564 1251 1576 -7 19 -184 134 -296 193 -198 104 -440 183 -662 216 -135 20 -465 20 -596 0z" android:strokeWidth="1.0" />
+    </group>
+</vector>

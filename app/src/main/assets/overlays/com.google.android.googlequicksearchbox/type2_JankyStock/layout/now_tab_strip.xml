@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@*com.google.android.googlequicksearchbox:id/now_tabs" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@*com.google.android.googlequicksearchbox:drawable/tab_strip_shadow" android:layout_width="fill_parent" android:layout_height="@*com.google.android.googlequicksearchbox:dimen/tab_strip_shadow_height" />
+    <com.google.android.apps.gsa.sidekick.shared.ui.NowStreamTabs android:gravity="center_horizontal" android:orientation="horizontal" android:id="@*com.google.android.googlequicksearchbox:id/lobby_sliding_tab_view" android:background="@*android:color/background_floating_material_dark" android:paddingLeft="@*com.google.android.googlequicksearchbox:dimen/tab_side_padding" android:paddingRight="@*com.google.android.googlequicksearchbox:dimen/tab_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@*com.google.android.googlequicksearchbox:id/now_navbar_mask" android:background="@*android:color/background_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:elevation="13.0dip" />
+</LinearLayout>

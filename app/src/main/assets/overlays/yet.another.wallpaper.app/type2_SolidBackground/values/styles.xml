@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
+
+
+    <style name="AppTheme" parent="@*yet.another.wallpaper.app:style/Theme.AppCompat.Light">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="*yet.another.wallpaper.app:windowActionBar">true</item>
+        <item name="*yet.another.wallpaper.app:windowNoTitle">true</item>
+        <item name="*yet.another.wallpaper.app:colorPrimary">@*yet.another.wallpaper.app:color/PrimaryColor</item>
+        <item name="*yet.another.wallpaper.app:colorPrimaryDark">@*yet.another.wallpaper.app:color/PrimaryColorDark</item>
+        <item name="*yet.another.wallpaper.app:colorAccent">@*yet.another.wallpaper.app:color/AccentColor</item>
+    </style>
+
+    <style name="Widget.Design.BottomSheet.Modal" parent="@*android:style/Widget">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:elevation">@*yet.another.wallpaper.app:dimen/design_bottom_sheet_modal_elevation</item>
+        <item name="*yet.another.wallpaper.app:behavior_peekHeight">auto</item>
+        <item name="*yet.another.wallpaper.app:behavior_hideable">true</item>
+        <item name="*yet.another.wallpaper.app:behavior_skipCollapsed">false</item>
+    </style>
+
+</resources>

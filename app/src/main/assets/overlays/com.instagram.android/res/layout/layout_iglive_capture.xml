@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@*com.instagram.android:id/iglive_surface_view_frame" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true" />
+    <ViewStub android:id="@*com.instagram.android:id/iglive_livewith_kickout_stub" android:layout="@*com.instagram.android:layout/layout_iglive_livewith_kickout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <include layout="@*com.instagram.android:layout/layout_iglive_capture_on" />
+        <ViewStub android:id="@*com.instagram.android:id/iglive_cobroadcast_progress_stub" android:layout="@*com.instagram.android:layout/layout_iglive_livewith_error" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@*com.instagram.android:layout/layout_iglive_capture_prepare" />
+        <ViewStub android:id="@*com.instagram.android:id/iglive_capture_hint_text_stub" android:layout="@*com.instagram.android:layout/bannertoast" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@*com.instagram.android:id/iglive_capture_end_stub" android:layout="@*com.instagram.android:layout/layout_iglive_capture_end" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</FrameLayout>

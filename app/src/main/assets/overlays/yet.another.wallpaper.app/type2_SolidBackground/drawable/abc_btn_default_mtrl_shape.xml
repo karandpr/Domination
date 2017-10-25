@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@*yet.another.wallpaper.app:dimen/abc_button_inset_horizontal_material" android:insetRight="@*yet.another.wallpaper.app:dimen/abc_button_inset_horizontal_material" android:insetTop="@*yet.another.wallpaper.app:dimen/abc_button_inset_vertical_material" android:insetBottom="@*yet.another.wallpaper.app:dimen/abc_button_inset_vertical_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="@*yet.another.wallpaper.app:dimen/abc_control_corner_material" />
+        <solid android:color="@*android:color/button_material_dark" />
+        <padding android:left="@*yet.another.wallpaper.app:dimen/abc_button_padding_horizontal_material" android:top="@*yet.another.wallpaper.app:dimen/abc_button_padding_vertical_material" android:right="@*yet.another.wallpaper.app:dimen/abc_button_padding_horizontal_material" android:bottom="@*yet.another.wallpaper.app:dimen/abc_button_padding_vertical_material" />
+    </shape>
+</inset>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/com.instagram.android">
+    <com.instagram.ui.widget.triangleshape.TriangleShape android:id="@*com.instagram.android:id/similar_accounts_notch" android:layout_width="fill_parent" android:layout_height="@*com.instagram.android:dimen/vertical_separator_padding" app:fillColor="@*android:color/background_floating_material_dark" app:lineColor="@*android:color/background_dark" />
+    <include layout="@*com.instagram.android:layout/cards_carousel" />
+</LinearLayout>
