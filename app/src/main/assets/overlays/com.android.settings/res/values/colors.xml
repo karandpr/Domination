@@ -90,7 +90,7 @@
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="material_grey_900">@*android:color/primary_material_dark</color>
     <color name="material_grey_850">@*android:color/background_dark</color>
-    <color name="material_grey_800">@*android:color/background_floating_material_dark</color>
+
     <color name="material_grey_600">@*android:color/background_dark</color>
     <color name="material_grey_100">@*android:color/primary_material_dark</color>
     <color name="material_grey_50">@*android:color/background_dark</color>
@@ -157,4 +157,44 @@
     <color name="usage_graph_dots">@*android:color/accent_material_dark</color>
 
     <color name="expanded_item_app_title">#ffffffff</color>
+
+
+
+    <color name="bluetooth_dialog_text_color">#ffffffff</color>
+
+
+    <color name="common_action_bar_splitter">#00000000</color>
+    <color name="common_signin_btn_dark_text_default">#ffffffff</color>
+    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_dark_text_focused">#ffffffff</color>
+    <color name="common_signin_btn_dark_text_pressed">#ffffffff</color>
+    <color name="common_signin_btn_default_background">@*android:color/button_material_dark</color>
+    <color name="common_signin_btn_light_text_default">#ffffffff</color>
+    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_light_text_focused">#ffffffff</color>
+    <color name="common_signin_btn_light_text_pressed">#ffffffff</color>
+
+    <color name="hats_lib_checkbox_tint">#8cffffff</color>
+    <color name="hats_lib_open_text_underline">#ff1976d2</color>
+    <color name="hats_lib_prompt_take_survey_blue">#ff1976d2</color>
+    <color name="hats_lib_prompt_take_survey_blue_focused">#ff0d47a1</color>
+    <color name="hats_lib_prompt_take_survey_blue_pressed">#ff0d47a1</color>
+    <color name="hats_lib_prompt_text_color">#ffffffff</color>
+    <color name="hats_lib_survey_control_normal">#ffdddddd</color>
+    <color name="hats_lib_survey_highlight_color">#ffffffff</color>
+    <color name="hats_lib_survey_question_text_color">#ffffffff</color>
+    <color name="hats_lib_survey_text_color">#ffdddddd</color>
+    <color name="hats_lib_survey_white_ripple_color">#ffdddddd</color>
+    <color name="hats_lib_survey_white_shape_color">@*android:color/background_floating_material_dark</color>
+    <color name="hats_lib_survey_white_shape_focused_color">#ff555555</color>
+    <color name="hats_lib_survey_white_shape_pressed_color">#ff555555</color>
+    <color name="hats_lib_white_100">@*android:color/background_floating_material_dark</color>
+
+
+    <color name="material_grey_200">@*android:color/button_material_dark</color>
+    <color name="shortcut_background">@*android:color/button_material_dark</color>
+    <color name="status_bar_color">@*android:color/primary_dark_material_dark</color>
+    <color name="tooltip_background_dark">#e6202020</color>
+    <color name="tooltip_background_light">#e6202020</color>
+    <color name="wifi_details_icon_color">#ffffffff</color>
 </resources>

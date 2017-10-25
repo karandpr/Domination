@@ -17,5 +17,8 @@
         <item name="android:statusBarColor">@*android:color/primary_dark_material_dark</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
-
+    <style name="PreferenceTheme.Compat" parent="@*com.google.android.calendar:style/PreferenceTheme">
+        <item name="android:statusBarColor">@*android:color/primary_dark_material_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
 </resources>

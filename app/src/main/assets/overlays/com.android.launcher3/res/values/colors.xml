@@ -26,4 +26,15 @@
     <color name="spring_loaded_panel_color">#40000000</color>
     <color name="spring_loaded_highlighted_panel_border_color">#ff111111</color>
     <color name="fallback_secondary_color">@*android:color/button_material_dark</color>
+
+
+    <color name="popup_header_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="popup_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="notification_icon_default_color">#ffffffff</color>
+    <color name="notification_color_beneath">@*android:color/background_floating_material_dark</color>
+    <color name="badge_color">#ff388e3c</color>
+    <color name="folder_badge_color">#ff388e3c</color>
+    <color name="system_shortcuts_icon_color">#ffffffff</color>
+    <color name="legacy_icon_background">@*android:color/button_material_dark</color>
+    <color name="icon_background">@*android:color/button_material_dark</color>
 </resources>

@@ -430,4 +430,11 @@
     <color name="tz_picker_dark_highlight_text_color">#ff1976d2</color>
     <color name="tz_picker_dark_toolbar_color">@*android:color/primary_material_dark</color>
     <color name="tz_picker_light_highlight_text_color">#ffffffff</color>
+
+
+    <color name="avatar_bubble_plus_x_background">@*android:color/button_material_dark</color>
+    <color name="avatar_bubble_plux_x_foreground">@*android:color/white</color>
+    <color name="avatar_bubble_stroke">@*android:color/white</color>
+    <color name="colorAccent">#ff1976d2</color>
+    <color name="meeting_suggestions_view_background">@*android:color/background_dark</color>
 </resources>

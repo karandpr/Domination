@@ -49,4 +49,24 @@
     <style name="Theme.AppPicker" parent="@*android:style/Theme.Material.Dialog" />
     <style name="Theme.SmartBar.Dialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
 
+
+
+    <style name="BluetoothPermission" parent="@*android:style/Theme.Material.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="FingerprintHeaderStyle" parent="@*android:style/TextAppearance.Material.Subhead">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="SetupWizardAccessibilitySwitchBarTheme" parent="@*com.android.settings:style/ThemeOverlay.SwitchBar.Settings">
+        <item name="android:textColorPrimary">@*android:color/white</item>
+        <item name="android:colorControlActivated">@*com.android.settings:color/material_blue_500</item>
+        <item name="*com.android.settings:switchBarBackgroundColor">@*android:color/button_material_dark</item>
+    </style>
+    <style name="AppActionPrimaryButton" parent="@*android:style/Widget.Material.Button" />
+    <style name="SupportPrimaryButton" parent="@*android:style/Widget.Material.Button" />
+    <style name="SupportSecondaryButton" parent="@*android:style/Widget.Material.Button.Borderless">
+        <item name="android:textSize">12.0sp</item>
+    </style>
 </resources>

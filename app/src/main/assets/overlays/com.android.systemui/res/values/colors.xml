@@ -147,6 +147,6 @@
     <color name="ksh_key_item_color">@*android:color/accent_material_dark</color>
     <color name="ksh_key_item_background">@*android:color/button_material_dark</color>
 
-
+    <color name="notification_material_background_dark_color">@*android:color/primary_dark_material_dark</color>
     <color name="screen_pinning_background_color">@*android:color/background_floating_material_dark</color>
 </resources>

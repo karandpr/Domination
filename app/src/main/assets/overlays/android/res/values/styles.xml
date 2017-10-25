@@ -81,7 +81,7 @@
         <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
         <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
         <item name="android:colorAccent">@*android:color/accent_material_dark</item>
-        <item name="colorSecondary">@*android:color/button_material_dark</item>
+        <item name="*android:colorSecondary">@*android:color/button_material_dark</item>
     </style>
     <style name="Theme.Material.Settings.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar">
         <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
@@ -210,8 +210,8 @@
         <item name="android:imeFullscreenBackground">@*android:color/background_floating_material_dark</item>
     </style>
     <style name="Theme.Material.Light.Dialog.NoActionBar" parent="@*android:style/Theme.Material.Dialog.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+        <item name="*android:windowActionBar">false</item>
+        <item name="*android:windowNoTitle">true</item>
     </style>
     <style name="Theme.Leanback.Settings.Dialog.Alert" parent="@*android:style/Theme.DeviceDefault.Dialog">
         <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
@@ -258,8 +258,8 @@
     <style name="UnlaunchableAppActivityTheme" parent="@*android:style/Theme.Material.Dialog.Alert" />
 
     <style name="Theme.Holo.Light.Dialog.NoActionBar.MinWidth" parent="@*android:style/Theme.Holo.Dialog.NoActionBar">
-       <item name="windowMinWidthMajor">@*android:dimen/dialog_min_width_major</item>
-       <item name="windowMinWidthMinor">@*android:dimen/dialog_min_width_minor</item>
+       <item name="*android:windowMinWidthMajor">@*android:dimen/dialog_min_width_major</item>
+       <item name="*android:windowMinWidthMinor">@*android:dimen/dialog_min_width_minor</item>
     </style>
 
     <style name="Theme.DeviceDefault.InputMethod" parent="@*android:style/Theme.Material.InputMethod" />
@@ -269,9 +269,28 @@
     </style>
 
 
+    <style name="Widget.Material.Notification.MessagingText" parent="@*android:style/Widget.Material.TextView">
+        <item name="*android:textAppearance">@*android:style/TextAppearance.Material.Notification</item>
+        <item name="*android:ellipsize">end</item>
+        <item name="*android:visibility">gone</item>
+        <item name="*android:layout_width">fill_parent</item>
+        <item name="*android:layout_height">wrap_content</item>
+    </style>
+
+
     <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@*android:style/Theme.Material">
         <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
         <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
         <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+
+
+    <style name="Theme.DeviceDefault.QuickSettings" parent="@*android:style/Theme.Material">
+        <item name="android:colorControlNormal">@*android:color/white</item>
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="android:colorSecondary">@*android:color/button_material_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_floating_material_dark</item>
     </style>
 </resources>

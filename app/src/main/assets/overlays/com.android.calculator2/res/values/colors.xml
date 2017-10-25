@@ -13,4 +13,9 @@
     <color name="pad_button_advanced_text_color">#ffffffff</color>
     <color name="pad_button_ripple_color">#4dffffff</color>
     <color name="pad_button_advanced_ripple_color">#4dffffff</color>
+
+
+    <color name="calculator_primary_color">#ff0097a7</color>
+    <color name="calculator_statusbar_color">#ff006064</color>
+    <color name="empty_history_color">@*android:color/background_dark</color>
 </resources>

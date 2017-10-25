@@ -40,15 +40,7 @@
         <item name="android:paddingEnd">32.0dip</item>
     </style>
 
-    <style name="EmptyStateContainer">
-        <item name="android:gravity">center</item>
-        <item name="android:orientation">vertical</item>
-        <item name="android:background">@*android:color/background_dark</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">fill_parent</item>
-        <item name="android:paddingStart">@*com.google.android.calendar:dimen/empty_state_label_horizontal_padding</item>
-        <item name="android:paddingEnd">@*com.google.android.calendar:dimen/empty_state_label_horizontal_padding</item>
-    </style>
+
 
     <style name="FindTimeSubTitle">
         <item name="android:background">@*android:color/background_floating_material_dark</item>
@@ -103,7 +95,7 @@
         <item name="android:textColor">#ffdddddd</item>
     </style>
 
-    <style name="RecipientEditTextViewBase" parent="@*android:attr/autoCompleteTextViewStyle">
+    <style name="RecipientEditTextViewBase">
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
         <item name="android:background">@null</item>
         <item name="android:layout_width">fill_parent</item>
@@ -219,15 +211,7 @@
         <item name="android:paddingRight">2.0dip</item>
         <item name="android:singleLine">true</item>
     </style>
-    <style name="TextAppearance.EmptyStateLabelBody" parent="@*com.google.android.calendar:style/TextAppearance">
-        <item name="android:textSize">@*com.google.android.calendar:dimen/empty_state_label_body_text_size</item>
-        <item name="android:textColor">@*android:color/secondary_text_default_material_dark</item>
-    </style>
-    <style name="TextAppearance.EmptyStateLabelTitle" parent="@*com.google.android.calendar:style/TextAppearance">
-        <item name="android:textSize">@*com.google.android.calendar:dimen/empty_state_label_title_text_size</item>
-        <item name="android:textColor">@*android:color/white</item>
-        <item name="android:fontFamily">@*com.google.android.calendar:string/roboto_medium</item>
-    </style>
+
 
     <style name="TextAppearance.FindTimeBestTimesNotAvailable" parent="@*com.google.android.calendar:style/TextAppearance">
         <item name="android:textSize">@*com.google.android.calendar:dimen/find_time_best_times_not_available_text_size</item>
@@ -299,4 +283,18 @@
         <item name="*com.google.android.calendar:behavior_skipCollapsed">false</item>
     </style>
 
+
+
+    <style name="ActionbarTheme" parent="@*com.google.android.calendar:style/Theme.Actionbar.Base">
+        <item name="android:background">@*android:color/primary_material_dark</item>
+        <item name="android:height">56.0dip</item>
+        <item name="android:displayOptions">showCustom</item>
+    </style>
+    <style name="RoomInfoTheme" parent="@*com.google.android.calendar:style/CalendarTheme.AbstractNoActionBar">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="*com.google.android.calendar:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="*com.google.android.calendar:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+    </style>
+    <style name="Theme.Actionbar.Base" parent="@*android:style/Widget.Holo.ActionBar.Solid" />
+    <style name="Theme.Activity.Light" parent="@*android:style/Theme.Holo" />
 </resources>

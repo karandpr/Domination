@@ -141,4 +141,21 @@
     <color name="accent_device_default_light">@*android:color/accent_material_dark</color>
     <color name="accent_device_default_dark">@*android:color/accent_material_dark</color>
     <color name="accent_device_default_50">@*android:color/accent_material_dark</color>
+
+
+
+    <color name="notification_primary_text_color_light">#ffffffff</color>
+    <color name="notification_secondary_text_color_light">#ffdddddd</color>
+    <color name="primary_dark_device_default_settings_light">@*android:color/primary_dark_material_dark</color>
+    <color name="primary_dark_material_settings_light">@*android:color/primary_dark_material_dark</color>
+    <color name="primary_device_default_settings_light">@*android:color/primary_material_dark</color>
+    <color name="primary_material_settings_light">@*android:color/primary_material_dark</color>
+    <color name="profile_badge_1">#ffe64a19</color>
+    <color name="profile_badge_2">@*android:color/accent_material_dark</color>
+    <color name="profile_badge_3">#ff388e3c</color>
+    <color name="red">#ffd32f2f</color>
+    <color name="secondary_device_default_settings_light">@*android:color/button_material_dark</color>
+    <color name="secondary_material_settings_light">@*android:color/button_material_dark</color>
+    <color name="tooltip_background_dark">#e6202020</color>
+    <color name="tooltip_background_light">#e6202020</color>
 </resources>

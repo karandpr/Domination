@@ -106,4 +106,5 @@
     <color name="usage_graph_dots">@*android:color/accent_material_dark</color>
     <color name="preference_fallback_accent_color">@*android:color/accent_material_dark</color>
 
+    <color name="bigIconColor">#ffffffff</color>
 </resources>
